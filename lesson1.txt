@@ -1,0 +1,46 @@
+#初始化空间
+git init
+
+#添加到版本控制
+git add one.txt two.txt
+
+#提交
+git commit -m ""
+
+#查看工作控件状态
+git status
+
+#回退到历史版本
+HEAD指针当前版本，HEAD^前版本
+git log 看历史
+git reset --hard commit_id 在历史版本间穿梭
+
+#将本地数据恢复
+git checkout -- file.txt
+
+#将提交到缓存区的数据恢复
+git reset HEAD file.txt
+
+#git远程库
+ssh-keygen -t rsa -C "youremail@example.com"
+
+#关联远程仓库，例子：git@github.com:cailingxiao/testgit.git
+git remote add origin git@server-name:path/repo-name.git
+
+
+#首次使用加上-u参数
+git push -u origin master
+
+#从远程仓库克隆仓库
+git clone git@server-name:path/repo-name.git
+或者
+git clone https://github.com/michaelliao/gitskills.git
+
+#分支相关
+git branch
+git checkout <branch-name>
+git checkout -b <branch-name>
+git merge <branch-name>
+git branch -d <branch-name>
+
+xxxxxxxxx
