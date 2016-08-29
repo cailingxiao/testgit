@@ -15,8 +15,7 @@ Git has a mutable index called stage.
 
 git tracks changes;
 
-<<<<<<< HEAD
+
 create a memo from master feature.
-=======
 create a new branch is quick And simple
->>>>>>> feature1
+
